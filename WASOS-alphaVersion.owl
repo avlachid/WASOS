@@ -1,0 +1,810 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://ecoinformatics.ac.uk/onto/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://ecoinformatics.ac.uk/onto/">
+    <Prefix name="" IRI="http://ecoinformatics.ac.uk/onto/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A formal ontology for modelling the knowledge of traditional water stew-ardship in India’s drylands by capturing the key constitutional elements of regenerative methods</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="State"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="participatesIn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Metric"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="comprisesBlock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="AdminArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Village"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="isComposedOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Agia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Block"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="belongsToBlock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Requirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PhysiographicFeature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ZillaParishad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="InformalGovUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Policy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FinancialResources"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Thessali"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="VidhanParishad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="governs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Agreement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="chairsAdminUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GovFund"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RemoveRight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="belongsToDistrict"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BlockDevOfficer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasAdminAreaPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Activity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Greece"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Consent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="belongsToState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GovUnitMember"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Larisa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="comprisesDistrict"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="WaterHarvesting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="District"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GovernanceUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="DenialOfServ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="IntDonations"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="comprisesVillage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Zoniana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BlockDevOffice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="partOfAdminArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Nullah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GroundWaterLvl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BlockPanchayat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Penalty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Waterbody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pradhan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LandFeature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="WaterQuantity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="isChairedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CEO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="HeadOfAdmin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Sarpanch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CivilSanction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="isGoverenedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="River"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="WaterQuality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Crete"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GramPanchayat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Chania"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GrantRight"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="Agreement"/>
+        <Class IRI="Policy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Block"/>
+        <Class IRI="AdminArea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BlockDevOffice"/>
+        <Class IRI="GovernanceUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BlockDevOfficer"/>
+        <Class IRI="HeadOfAdmin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BlockPanchayat"/>
+        <Class IRI="GovernanceUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CEO"/>
+        <Class IRI="HeadOfAdmin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CivilSanction"/>
+        <Class IRI="Policy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Consent"/>
+        <Class IRI="Policy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="DenialOfServ"/>
+        <Class IRI="Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="District"/>
+        <Class IRI="AdminArea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GovFund"/>
+        <Class IRI="FinancialResources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GovUnitMember"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GramPanchayat"/>
+        <Class IRI="GovernanceUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GrantRight"/>
+        <Class IRI="Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GroundWaterLvl"/>
+        <Class IRI="Metric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="HeadOfAdmin"/>
+        <Class IRI="GovUnitMember"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="InformalGovUnit"/>
+        <Class IRI="GovernanceUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="IntDonations"/>
+        <Class IRI="FinancialResources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="LandFeature"/>
+        <Class IRI="PhysiographicFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Nullah"/>
+        <Class IRI="Waterbody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Penalty"/>
+        <Class IRI="Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pond"/>
+        <Class IRI="Waterbody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pool"/>
+        <Class IRI="Waterbody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pradhan"/>
+        <Class IRI="HeadOfAdmin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="RemoveRight"/>
+        <Class IRI="Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Requirement"/>
+        <Class IRI="Policy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="River"/>
+        <Class IRI="Waterbody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Sarpanch"/>
+        <Class IRI="HeadOfAdmin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="State"/>
+        <Class IRI="AdminArea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="VidhanParishad"/>
+        <Class IRI="GovernanceUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Village"/>
+        <Class IRI="AdminArea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="WaterHarvesting"/>
+        <Class IRI="Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="WaterQuality"/>
+        <Class IRI="Metric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="WaterQuantity"/>
+        <Class IRI="Metric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Waterbody"/>
+        <Class IRI="PhysiographicFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ZillaParishad"/>
+        <Class IRI="GovernanceUnit"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="Block"/>
+        <Class IRI="District"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Block"/>
+        <Class IRI="State"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Block"/>
+        <Class IRI="Village"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="District"/>
+        <Class IRI="State"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="District"/>
+        <Class IRI="Village"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="State"/>
+        <Class IRI="Village"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="Village"/>
+        <NamedIndividual IRI="Agia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Block"/>
+        <NamedIndividual IRI="Chania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="District"/>
+        <NamedIndividual IRI="Crete"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="State"/>
+        <NamedIndividual IRI="Greece"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Block"/>
+        <NamedIndividual IRI="Larisa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="District"/>
+        <NamedIndividual IRI="Thessali"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Village"/>
+        <NamedIndividual IRI="Zoniana"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="belongsToBlock"/>
+        <NamedIndividual IRI="Agia"/>
+        <NamedIndividual IRI="Larisa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="belongsToDistrict"/>
+        <NamedIndividual IRI="Chania"/>
+        <NamedIndividual IRI="Crete"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="belongsToState"/>
+        <NamedIndividual IRI="Crete"/>
+        <NamedIndividual IRI="Greece"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="belongsToDistrict"/>
+        <NamedIndividual IRI="Larisa"/>
+        <NamedIndividual IRI="Thessali"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="belongsToState"/>
+        <NamedIndividual IRI="Thessali"/>
+        <NamedIndividual IRI="Greece"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="belongsToBlock"/>
+        <NamedIndividual IRI="Zoniana"/>
+        <NamedIndividual IRI="Chania"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="belongsToBlock"/>
+        <ObjectProperty IRI="partOfAdminArea"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="belongsToDistrict"/>
+        <ObjectProperty IRI="partOfAdminArea"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="belongsToState"/>
+        <ObjectProperty IRI="partOfAdminArea"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="comprisesBlock"/>
+        <ObjectProperty IRI="hasAdminAreaPart"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="comprisesDistrict"/>
+        <ObjectProperty IRI="hasAdminAreaPart"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="comprisesVillage"/>
+        <ObjectProperty IRI="hasAdminAreaPart"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="belongsToBlock"/>
+        <ObjectProperty IRI="comprisesVillage"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="belongsToDistrict"/>
+        <ObjectProperty IRI="comprisesBlock"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="belongsToState"/>
+        <ObjectProperty IRI="comprisesDistrict"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="chairsAdminUnit"/>
+        <ObjectProperty IRI="isChairedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="governs"/>
+        <ObjectProperty IRI="isGoverenedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="hasAdminAreaPart"/>
+        <ObjectProperty IRI="partOfAdminArea"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="isComposedOf"/>
+        <ObjectProperty IRI="participatesIn"/>
+    </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="hasAdminAreaPart"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="partOfAdminArea"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="belongsToBlock"/>
+        <Class IRI="Village"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="belongsToDistrict"/>
+        <Class IRI="Block"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="belongsToState"/>
+        <Class IRI="District"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="chairsAdminUnit"/>
+        <Class IRI="HeadOfAdmin"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="comprisesBlock"/>
+        <Class IRI="District"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="comprisesDistrict"/>
+        <Class IRI="State"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="comprisesVillage"/>
+        <Class IRI="Block"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="governs"/>
+        <Class IRI="GovernanceUnit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasAdminAreaPart"/>
+        <Class IRI="AdminArea"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="isChairedBy"/>
+        <Class IRI="GovernanceUnit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="isComposedOf"/>
+        <Class IRI="GovernanceUnit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="isGoverenedBy"/>
+        <Class IRI="AdminArea"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="partOfAdminArea"/>
+        <Class IRI="AdminArea"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="participatesIn"/>
+        <Class IRI="GovUnitMember"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="belongsToBlock"/>
+        <Class IRI="Block"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="belongsToDistrict"/>
+        <Class IRI="District"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="belongsToState"/>
+        <Class IRI="State"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="chairsAdminUnit"/>
+        <Class IRI="GovernanceUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="comprisesBlock"/>
+        <Class IRI="Block"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="comprisesDistrict"/>
+        <Class IRI="District"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="comprisesVillage"/>
+        <Class IRI="Village"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="governs"/>
+        <Class IRI="AdminArea"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasAdminAreaPart"/>
+        <Class IRI="AdminArea"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="isChairedBy"/>
+        <Class IRI="HeadOfAdmin"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="isComposedOf"/>
+        <Class IRI="GovUnitMember"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="isGoverenedBy"/>
+        <Class IRI="GovernanceUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="partOfAdminArea"/>
+        <Class IRI="AdminArea"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="participatesIn"/>
+        <Class IRI="GovernanceUnit"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>AdminArea</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Administrative Area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Agreement</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Agreement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Block</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Block</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Block</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Taluka</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Block</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tehsil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BlockDevOffice</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Block Development Office</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BlockDevOfficer</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Block Development Officer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BlockPanchayat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Block Panchayat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BlockPanchayat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mandals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BlockPanchayat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Panchayat Samiti</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BlockPanchayat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Taluka Panchayat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>CEO</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Chief Executive Officer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>CivilSanction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Civil Sanction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Consent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Consent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>DenialOfServ</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Denial of Service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>District</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">District</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>GovFund</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Government Fund</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>GovernanceUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Governance Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>GramPanchayat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gram Panchayat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>GramPanchayat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gram Sabha</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>GrantRight</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Grant Right</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>GroundWaterLvl</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ground Water Level</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>HeadOfAdmin</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Head of Administration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>InformalGovUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Informal Governance Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>IntDonations</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">International Donations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Penalty</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Penalty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>PhysiographicFeature</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Physiographic Feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Pradhan</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Block Pramukh</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Pradhan</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pradhan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Pradhan</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Samiti Chairman</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>RemoveRight</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Remove Right</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Requirement</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Requirement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>State</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">State</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>VidhanParishad</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Legislative Council</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>VidhanParishad</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Vidhan Parishad</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>WaterHarvesting</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Water Harvesting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>WaterQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Water Quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>WaterQuantity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Water Quantity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ZillaParishad</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Zilla Parishad</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
